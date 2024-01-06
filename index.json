@@ -4,8 +4,8 @@
     "heading": "How to Use JSON Schema Effectively",
     "description": "Today I learned how to create structured JSON data with JSON Schema. It's a powerful tool for validation and ensuring data integrity.",
     "link": "https://json-schema.org/",
-    "md_data_link": "",
-    "cate":["language"]
+    "md_data_link": "https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
+    "cate":["schema"]
   },
   {
     "date": "2024-01-05",
@@ -13,6 +13,6 @@
     "description": "I'm experimenting with Tailwind CSS for utility-first styling. It's flexible and helps me create unique designs quickly.",
     "link": "https://tailwindcss.com/",
     "md_data_link": "",
-    "cate":["language"]
+    "cate":["language","css"]
   }
 ]
