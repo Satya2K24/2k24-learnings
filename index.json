@@ -1,18 +1,603 @@
 [
-  {
-    "date": "2024-01-06",
-    "heading": "How to Use JSON Schema Effectively",
-    "description": "Today I learned how to create structured JSON data with JSON Schema. It's a powerful tool for validation and ensuring data integrity.",
-    "link": "https://json-schema.org/",
-    "md_data_link": "https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
-    "cate":["schema"]
-  },
-  {
-    "date": "2024-01-05",
-    "heading": "Exploring Tailwind CSS for Styling",
-    "description": "I'm experimenting with Tailwind CSS for utility-first styling. It's flexible and helps me create unique designs quickly.",
-    "link": "https://tailwindcss.com/",
-    "md_data_link": "https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
-    "cate":["language","css"]
-  }
+   {
+      "date":"2024-01-06",
+      "heading":"How to Use JSON Schema Effectively",
+      "description":"Today I learned how to create structured JSON data with JSON Schema. It's a powerful tool for validation and ensuring data integrity.",
+      "link":"https://json-schema.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
+      "cate":[
+         "schema"
+      ]
+   },
+   {
+      "date":"2024-01-05",
+      "heading":"Exploring Tailwind CSS for Styling",
+      "description":"I'm experimenting with Tailwind CSS for utility-first styling. It's flexible and helps me create unique designs quickly.",
+      "link":"https://tailwindcss.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
+      "cate":[
+         "language",
+         "css"
+      ]
+   },
+   {
+      "date":"2024-01-06",
+      "heading":"How to Use JSON Schema Effectively",
+      "description":"Today I learned how to create structured JSON data with JSON Schema. It's a powerful tool for validation and ensuring data integrity.",
+      "link":"https://json-schema.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
+      "cate":[
+         "schema"
+      ]
+   },
+   {
+      "date":"2024-01-05",
+      "heading":"Exploring Tailwind CSS for Styling",
+      "description":"I'm experimenting with Tailwind CSS for utility-first styling. It's flexible and helps me create unique designs quickly.",
+      "link":"https://tailwindcss.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/json-schema.md",
+      "cate":[
+         "language",
+         "css"
+      ]
+   },
+   {
+      "date":"2024-01-07",
+      "heading":"Building Responsive Layouts with Flexbox",
+      "description":"Mastering Flexbox is essential for creating modern, responsive web layouts that adapt to different screen sizes seamlessly.",
+      "link":"https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/flexbox.md",
+      "cate":[
+         "layout",
+         "css"
+      ]
+   },
+   {
+      "date":"2024-01-02",
+      "heading":"Deep Dive into React Hooks for State Management",
+      "description":"React Hooks offer a powerful and flexible way to manage state and side effects in React components. I'm exploring their potential in my projects.",
+      "link":"https://reactjs.org/docs/hooks-intro.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/react-hooks.md",
+      "cate":[
+         "framework",
+         "javascript"
+      ]
+   },
+   {
+      "date":"2023-12-31",
+      "heading":"Creating Serverless APIs with AWS Lambda and Node.js",
+      "description":"I'm building serverless backends using AWS Lambda and Node.js to create scalable and cost-effective APIs. It's amazing!",
+      "link":"https://aws.amazon.com/lambda/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/aws-lambda.md",
+      "cate":[
+         "backend",
+         "cloud",
+         "javascript"
+      ]
+   },
+   {
+      "date":"2024-01-04",
+      "heading":"Optimizing Images for Web Performance",
+      "description":"I'm learning techniques to optimize images for faster loading times and better user experience on the web. It's crucial for SEO too!",
+      "link":"https://web.dev/fast/#optimize-images",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/image-optimization.md",
+      "cate":[
+         "performance",
+         "webdev"
+      ]
+   },
+   {
+      "date":"2024-01-03",
+      "heading":"Securing Web Applications with Best Practices",
+      "description":"I'm focusing on security measures to protect web applications from vulnerabilities and attacks. It's a top priority.",
+      "link":"https://owasp.org/www-project-top-ten/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/web-security.md",
+      "cate":[
+         "security",
+         "web"
+      ]
+   },
+   {
+      "date":"2024-01-04",
+      "heading":"Building a CRUD API with Django REST Framework",
+      "description":"Learned how to quickly scaffold a CRUD JSON API using the power of Django REST Framework and serializers.",
+      "link":"https://www.django-rest-framework.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/drf.md",
+      "cate":[
+         "python",
+         "django",
+         "api"
+      ]
+   },
+   {
+      "date":"2024-01-03",
+      "heading":"User Authentication in React with JSON Web Tokens",
+      "description":"Implemented a full JWT-based authentication flow in my React app for logins, signups, and protected routes.",
+      "link":"https://jwt.io/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/react-jwt-auth.md",
+      "cate":[
+         "javascript",
+         "react",
+         "security"
+      ]
+   },
+   {
+      "date":"2024-01-02",
+      "heading":"Building a Chat App with Socket.io",
+      "description":"Learned how to add real-time capabilities to a Node.js app with Socket.io. Built a basic messaging app demo to experiment.",
+      "link":"https://socket.io/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/socketio-chat.md",
+      "cate":[
+         "javascript",
+         "nodejs",
+         "realtime"
+      ]
+   },
+   {
+      "date":"2024-01-01",
+      "heading":"Trying Out Next.js for SSR React",
+      "description":"Next.js makes server-rendered React apps painless. Had fun playing with it and will use for my next side project.",
+      "link":"https://nextjs.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/nextjs-intro.md",
+      "cate":[
+         "javascript",
+         "react",
+         "ssr"
+      ]
+   },
+   {
+      "date":"2023-12-31",
+      "heading":"Getting Started with TypeScript",
+      "description":"Typed JavaScript is awesome! Went through the TypeScript docs and added types to my React project.",
+      "link":"https://www.typescriptlang.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/typescript-101.md",
+      "cate":[
+         "javascript",
+         "typescript"
+      ]
+   },
+   {
+      "date":"2023-12-30",
+      "heading":"Exploring React Hooks",
+      "description":"Replacing classes with hooks is a game changer. Building my first custom hook today for data fetching.",
+      "link":"https://reactjs.org/docs/hooks-intro.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/react-hooks.md",
+      "cate":[
+         "javascript",
+         "react"
+      ]
+   },
+   {
+      "date":"2023-12-29",
+      "heading":"Getting Started with GraphQL APIs",
+      "description":"Tried out GraphQL for the first time with Apollo Client and was amazed by the flexibility. So much power!",
+      "link":"https://graphql.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/graphql-intro.md",
+      "cate":[
+         "api",
+         "graphql"
+      ]
+   },
+   {
+      "date":"2023-12-28",
+      "heading":"Automating My Workflow with GitHub Actions",
+      "description":"GitHub Actions is awesome for CI/CD! Got my first Node.js workflow set up to run tests and linting on every push.",
+      "link":"https://github.com/features/actions",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/github-actions.md",
+      "cate":[
+         "devops",
+         "github"
+      ]
+   },
+   {
+      "date":"2023-12-27",
+      "heading":"Getting Started with Kubernetes",
+      "description":"Kubernetes is incredibly powerful! Successfully deployed my first multi-container app on a local cluster.",
+      "link":"https://kubernetes.io/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/kubernetes-intro.md",
+      "cate":[
+         "devops",
+         "kubernetes"
+      ]
+   },
+   {
+      "date":"2023-12-26",
+      "heading":"Exploring Python Type Hints",
+      "description":"Type hints make Python code safer and more readable. Added mypy type checking to my latest project.",
+      "link":"https://www.python.org/dev/peps/pep-0484/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/python-type-hints.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-25",
+      "heading":"Building a REST API with Golang and Gin",
+      "description":"Golang is perfect for APIs. Built my first JSON CRUD API today with the Gin framework.",
+      "link":"https://github.com/gin-gonic/gin",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/golang-gin-api.md",
+      "cate":[
+         "go",
+         "api"
+      ]
+   },
+   {
+      "date":"2023-12-24",
+      "heading":"Exploring React Context for State Management",
+      "description":"React Context is a simple way to share state between components. Built a user auth flow to test it out.",
+      "link":"https://reactjs.org/docs/context.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/react-context.md",
+      "cate":[
+         "javascript",
+         "react"
+      ]
+   },
+   {
+      "date":"2023-12-23",
+      "heading":"Mastering Python Decorators",
+      "description":"Decorators let you modify functions in powerful ways. Learned how to chain them together for some cool effects.",
+      "link":"https://www.python.org/dev/peps/pep-0318/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/python-decorators.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-22",
+      "heading":"Building a Telegram Chatbot with Python",
+      "description":"Made my first real-world Telegram bot in Python using python-telegram-bot. So easy and fun!",
+      "link":"https://github.com/python-telegram-bot/python-telegram-bot",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/telegram-bot.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-21",
+      "heading":"Mastering Python Classes and OOP",
+      "description":"Classes and objects are powerful in Python. Practiced inheritance, polymorphism and encapsulation.",
+      "link":"https://docs.python.org/3/tutorial/classes.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/python-oop.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-20",
+      "heading":"Deploying a React App on AWS with S3",
+      "description":"Learned how easy and cheap it is to host a React app on S3. Everything on AWS just works!",
+      "link":"https://aws.amazon.com/s3/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/aws-s3-react.md",
+      "cate":[
+         "javascript",
+         "react",
+         "devops"
+      ]
+   },
+   {
+      "date":"2023-12-19",
+      "heading":"Building a Discord Bot with Python",
+      "description":"Made a fun Discord bot in Python with discord.py. So many ideas for features to add!",
+      "link":"https://discordpy.readthedocs.io",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/discord-bot.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-18",
+      "heading":"Trying MongoDB for the First Time",
+      "description":"Goodbye SQL! MongoDB makes storing unstructured data so much easier. Never looking back.",
+      "link":"https://www.mongodb.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/mongodb-intro.md",
+      "cate":[
+         "database",
+         "nosql"
+      ]
+   },
+   {
+      "date":"2023-12-17",
+      "heading":"Learning Web Scraping with Python",
+      "description":"Scrapy and Beautiful Soup are amazing! Extracted tons of data from websites today.",
+      "link":"https://scrapy.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/web-scraping-python.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2023-12-16",
+      "heading":"Trying Flask for Python Web Apps",
+      "description":"Made my first web app in Flask today - it's so quick and lightweight! Excited to build more.",
+      "link":"https://flask.palletsprojects.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/flask-intro.md",
+      "cate":[
+         "python",
+         "webdev"
+      ]
+   },
+   {
+      "date":"2023-12-15",
+      "heading":"Learning Python Multiprocessing",
+      "description":"Using multiprocessing sped up my Python data pipeline 100x! Parallel programming for the win.",
+      "link":"https://docs.python.org/3/library/multiprocessing.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/python-multiprocessing.md",
+      "cate":[
+         "python"
+      ]
+   },
+   {
+      "date":"2024-01-04",
+      "heading":"Introduction to React Hooks",
+      "description":"Today I delved into React Hooks and discovered how they can simplify state management in functional components.",
+      "link":"https://reactjs.org/docs/hooks-intro.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/react-hooks.md",
+      "cate":[
+         "react",
+         "javascript"
+      ]
+   },
+   {
+      "date":"2024-01-03",
+      "heading":"Getting Started with Python Flask",
+      "description":"Started my journey with Flask, a micro web framework for Python. Excited to build web applications with Python!",
+      "link":"https://flask.palletsprojects.com/en/2.1.x/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/python-flask.md",
+      "cate":[
+         "python",
+         "web"
+      ]
+   },
+   {
+      "date":"2024-01-02",
+      "heading":"Diving into Docker Containers",
+      "description":"Explored Docker containers and containerization. It's fascinating how it simplifies application deployment and scalability.",
+      "link":"https://www.docker.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/docker.md",
+      "cate":[
+         "docker",
+         "devops"
+      ]
+   },
+   {
+      "date":"2024-01-01",
+      "heading":"Learning GraphQL Basics",
+      "description":"Started learning GraphQL and its query language. Excited about its flexibility in fetching and updating data.",
+      "link":"https://graphql.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/graphql.md",
+      "cate":[
+         "graphql",
+         "api"
+      ]
+   },
+   {
+      "date":"2023-12-31",
+      "heading":"Mastering VS Code Shortcuts",
+      "description":"Explored and memorized useful shortcuts in Visual Studio Code for efficient coding. It's a productivity game-changer!",
+      "link":"https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/vscode.md",
+      "cate":[
+         "vscode",
+         "tools"
+      ]
+   },
+   {
+      "date":"2023-12-30",
+      "heading":"Understanding RESTful API Design",
+      "description":"Studied the principles of RESTful API design. It's crucial for building scalable and maintainable web services.",
+      "link":"https://restfulapi.net/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/restful-api.md",
+      "cate":[
+         "api",
+         "web"
+      ]
+   },
+   {
+      "date":"2023-12-29",
+      "heading":"Essentials of Responsive Web Design",
+      "description":"Explored the fundamentals of responsive web design to create websites that adapt to various screen sizes and devices.",
+      "link":"https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/responsive-design.md",
+      "cate":[
+         "web",
+         "design"
+      ]
+   },
+   {
+      "date":"2023-12-28",
+      "heading":"Introduction to Node.js",
+      "description":"Started learning Node.js for server-side JavaScript development. Excited about building scalable and fast applications.",
+      "link":"https://nodejs.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/nodejs.md",
+      "cate":[
+         "nodejs",
+         "javascript"
+      ]
+   },
+   {
+      "date":"2023-12-27",
+      "heading":"Deep Dive into Git Version Control",
+      "description":"Studied advanced Git concepts, branching strategies, and collaboration techniques. Git is a powerful version control system.",
+      "link":"https://git-scm.com/book/en/v2",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/git.md",
+      "cate":[
+         "git",
+         "devops"
+      ]
+   },
+   {
+      "date":"2023-12-26",
+      "heading":"Basics of Object-Oriented Programming",
+      "description":"Reviewed the fundamental principles of object-oriented programming (OOP) to create modular and maintainable code.",
+      "link":"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/oop.md",
+      "cate":[
+         "javascript",
+         "programming"
+      ]
+   },
+   {
+      "date":"2023-12-25",
+      "heading":"Introduction to HTML5 and CSS3",
+      "description":"Explored the latest features of HTML5 and CSS3 to create modern and visually appealing web pages.",
+      "link":"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/html5-css3.md",
+      "cate":[
+         "html",
+         "css",
+         "web"
+      ]
+   },
+   {
+      "date":"2023-12-24",
+      "heading":"Exploring the World of Cybersecurity",
+      "description":"Dived into the basics of cybersecurity, understanding threats, and exploring measures to enhance digital security.",
+      "link":"https://www.cybersecurityeducation.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/cybersecurity.md",
+      "cate":[
+         "cybersecurity"
+      ]
+   },
+   {
+      "date":"2023-12-23",
+      "heading":"Introduction to SQL Databases",
+      "description":"Started learning about SQL databases, understanding data modeling, and performing basic CRUD operations.",
+      "link":"https://www.sqlcourse.com/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/sql-databases.md",
+      "cate":[
+         "sql",
+         "databases"
+      ]
+   },
+   {
+      "date":"2023-12-22",
+      "heading":"Mastering the Command Line Interface (CLI)",
+      "description":"Explored various command-line tools and learned to navigate and perform tasks efficiently using the CLI.",
+      "link":"https://www.codecademy.com/articles/command-line-commands",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/cli.md",
+      "cate":[
+         "cli",
+         "tools"
+      ]
+   },
+   {
+      "date":"2023-12-21",
+      "heading":"Understanding the Basics of Networking",
+      "description":"Studied fundamental concepts of networking, including protocols, IP addresses, and network topologies.",
+      "link":"https://www.cisco.com/c/en/us/about/innovations/innovations.html",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/networking.md",
+      "cate":[
+         "networking"
+      ]
+   },
+   {
+      "date":"2023-12-20",
+      "heading":"Exploring Data Structures and Algorithms",
+      "description":"Reviewed essential data structures and algorithms to enhance problem-solving skills in software development.",
+      "link":"https://www.geeksforgeeks.org/data-structures/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/algorithms.md",
+      "cate":[
+         "algorithms",
+         "programming"
+      ]
+   },
+   {
+      "date":"2023-12-19",
+      "heading":"Introduction to Cloud Computing",
+      "description":"Started learning about cloud computing, exploring cloud services, and understanding the advantages of cloud-based solutions.",
+      "link":"https://aws.amazon.com/getting-started/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/cloud-computing.md",
+      "cate":[
+         "cloud",
+         "devops"
+      ]
+   },
+   {
+      "date":"2023-12-18",
+      "heading":"Mastering Markdown for Documentation",
+      "description":"Explored the Markdown syntax for creating structured and formatted documentation. Markdown is simple and powerful!",
+      "link":"https://www.markdownguide.org/basic-syntax/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/markdown.md",
+      "cate":[
+         "markdown",
+         "documentation"
+      ]
+   },
+   {
+      "date":"2023-12-17",
+      "heading":"Introduction to Machine Learning",
+      "description":"Began the journey into machine learning, understanding basic concepts, and exploring algorithms for predictive modeling.",
+      "link":"https://www.coursera.org/learn/machine-learning",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/machine-learning.md",
+      "cate":[
+         "machine-learning"
+      ]
+   },
+   {
+      "date":"2023-12-16",
+      "heading":"Exploring Web Security Practices",
+      "description":"Studied best practices for web security, including encryption, secure coding, and protecting against common vulnerabilities.",
+      "link":"https://owasp.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/web-security.md",
+      "cate":[
+         "web",
+         "security"
+      ]
+   },
+   {
+      "date":"2023-12-15",
+      "heading":"Introduction to Raspberry Pi",
+      "description":"Started experimenting with Raspberry Pi, a versatile single-board computer. Excited about DIY projects and automation!",
+      "link":"https://www.raspberrypi.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/raspberry-pi.md",
+      "cate":[
+         "raspberry-pi",
+         "hardware"
+      ]
+   },
+   {
+      "date":"2023-12-14",
+      "heading":"Deep Dive into Front-End Frameworks",
+      "description":"Explored popular front-end frameworks like React, Angular, and Vue. These frameworks enhance web development efficiency.",
+      "link":"https://reactjs.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/front-end-frameworks.md",
+      "cate":[
+         "frontend",
+         "javascript"
+      ]
+   },
+   {
+      "date":"2023-12-13",
+      "heading":"Introduction to Linux Operating System",
+      "description":"Started learning about the Linux operating system, understanding its architecture, and using basic commands.",
+      "link":"https://www.linux.org/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/linux.md",
+      "cate":[
+         "linux",
+         "operating-system"
+      ]
+   },
+   {
+      "date":"2023-12-12",
+      "heading":"Exploring UX/UI Design Principles",
+      "description":"Studied principles of user experience (UX) and user interface (UI) design to create user-friendly and visually appealing interfaces.",
+      "link":"https://www.smashingmagazine.com/2011/01/20-useful-usability-findings-and-guidelines/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/ux-ui-design.md",
+      "cate":[
+         "ux",
+         "ui",
+         "design"
+      ]
+   },
+   {
+      "date":"2023-12-11",
+      "heading":"Introduction to Agile Software Development",
+      "description":"Explored Agile methodologies, understanding iterative development, and the importance of collaboration in software projects.",
+      "link":"https://www.agilealliance.org/agile101/",
+      "md_data_link":"https://raw.githubusercontent.com/Satya2K24/2k24-learnings/main/agile.md",
+      "cate":[
+         "agile",
+         "software-development"
+      ]
+   }
 ]
